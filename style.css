@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game-container {
+  text-align: center;
+}
+
+#score {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#click-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+#click-button:hover {
+  background-color: #45a049;
+}
+
+.upgrades, .achievements {
+  margin-top: 20px;
+}
+
+.upgrades button, #save-button, #load-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.upgrades button:disabled, #save-button:disabled, #load-button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+.achievements ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.achievements li {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.achievements li.unlocked {
+  color: #4CAF50;
+}
