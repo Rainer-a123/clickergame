@@ -11,19 +11,47 @@
         <h1>Idle Clicker Game</h1>
         <div id="score">Points: 0</div>
         <button id="click-button">Click Me!</button>
+
         <div class="upgrades">
             <h2>Upgrades</h2>
-            <button id="auto-clicker">Buy Auto-Clicker (Cost: 10)</button>
-            <button id="click-multiplier">Buy Click Multiplier (Cost: 50)</button>
-            <button id="mega-clicker">Buy Mega Clicker (Cost: 100)</button>
-            <button id="point-doubler">Buy Point Doubler (Cost: 500)</button>
+            <div id="upgrades-list"></div>
         </div>
-        <div class="achievements">
-            <h2>Achievements</h2>
-            <ul id="achievements-list"></ul>
+
+        <div class="fishing">
+            <h2>Fishing</h2>
+            <button id="fish-button">Go Fishing (Cost: 100)</button>
+            <div id="fishing-result"></div>
+            <div class="fishing-rods">
+                <h3>Fishing Rods</h3>
+                <div id="fishing-rods-list"></div>
+            </div>
+            <div class="fishing-rod-inventory">
+                <h3>Your Rods</h3>
+                <div id="fishing-rod-inventory-list"></div>
+            </div>
         </div>
-        <button id="save-button">Save Game</button>
-        <button id="load-button">Load Game</button>
+
+        <div class="bestiary">
+            <h2>Bestiary</h2>
+            <div id="bestiary-list"></div>
+        </div>
+
+        <div class="rebirth">
+            <h2>Rebirth</h2>
+            <button id="rebirth-button">Rebirth (+100% Clicks)</button>
+            <div id="rebirth-cost">Cost: 1000</div>
+            <div id="rebirth-count">Rebirths: 0</div>
+        </div>
+
+        <div class="events">
+            <h2>Events</h2>
+            <div id="event-notification"></div>
+        </div>
+
+        <div class="save-load">
+            <button id="save-button">Save Game</button>
+            <button id="load-button">Load Game</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
